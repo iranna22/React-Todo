@@ -1,0 +1,34 @@
+
+ .form-container input{
+    background-color: rgba(231, 236, 241, 0.76);
+    height: 35px;
+    min-width: 70%;
+    color: rgba(1, 14, 14, 0.945);
+    margin-bottom: 8px;
+    margin-left: 5%;  
+    box-shadow: 1;
+    border-style: hidden;
+    border-radius: 6px;
+    font-size: large;
+} 
+.form-container h2{
+    font-weight: 900;
+    font-size: 3rem;
+    margin-left: 35%;
+}
+.form-container button{
+    height: 35px;
+    width: 70px;
+    margin-left: 5%;
+    background-color: rgba(231, 236, 241, 0.76);
+    border-style: hidden;
+    border-radius: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+
+.form-container button{
+    display: block;
+    width: 70%;
+}
+}

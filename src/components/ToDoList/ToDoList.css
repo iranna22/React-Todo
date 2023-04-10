@@ -1,0 +1,23 @@
+.todo-item {
+  height: 35px;
+  width: 70%;
+  background-color: rgb(247, 243, 239);
+  padding:3px;
+  padding-left: 5px;
+  border-radius: 5px; 
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left:30px ;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 800;
+  color: rgba(0, 119, 255, 0.76);
+}
+.icons{
+    position: absolute;
+    right: 10px;
+}
+.icons i{
+  height: 10px;
+}
